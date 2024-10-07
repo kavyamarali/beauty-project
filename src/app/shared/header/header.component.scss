@@ -1,0 +1,98 @@
+.navbar {
+    background-color: black !important;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: lightgray !important;
+  }
+  
+  /* Optional: Add some spacing below the navbar */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Set a height for the carousel */
+  .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+  }
+/* Card Design */
+/* Small Card Design */
+.card {
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    max-width: 300px; /* Set max-width for small cards */
+    margin: auto; /* Center cards horizontally */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Card Image */
+  .card-img-top {
+    height: 200px; /* Adjust height for smaller images */
+    object-fit: cover; /* Ensure image covers the card */
+  }
+  
+  /* Card Body */
+  .card-body {
+    text-align: center; /* Center text */
+    padding: 1rem; /* Padding around content */
+    background-color: #333;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.125rem; /* Adjust font size */
+    font-weight: bold; /* Make title bold */
+    color: #333; /* Title color */
+  }
+  
+  /* Card Text */
+  .card-text {
+    font-size: 0.875rem; /* Adjust font size */
+    color: #666; /* Text color */
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Button border color */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+    transform: translateY(-2px); /* Lift button slightly on hover */
+  }
+  
+  .btn-primary:focus, .btn-primary:active {
+    box-shadow: none; /* Remove box-shadow on focus and active */
+  }
+  
+/* Centered heading styling */
+.heading-container {
+    text-align: center;
+    margin-bottom: 2rem; /* Space below the heading */
+  }
+  
+  .heading-container h2 {
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Set a color for the text */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.2; /* Adjust line height */
+  }
+  

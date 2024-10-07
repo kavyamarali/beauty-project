@@ -1,0 +1,24 @@
+
+<div class="card" style="width:100%;" *ngFor="let item of items">
+      <div class="card-body" style="display: flex;">
+        <div style="flex: 1;">
+          <h4 style="font-size: 25px;font-weight: bold;">{{item.name}}</h4>
+          <hr style="width: 90%;">
+            <ul style="line-height: 20px;" >
+                <li *ngFor="let i of item.specifications">{{i}}</li>
+            </ul>
+          <span>contact through <a [href]="item.href" target="_blank" style="color: #25D366;text-decoration: none;">WhatsApp</a></span>
+        </div>
+        <div style="flex: 1;">
+            <img style="width:100%;max-width: 290px;max-height:290px;" src="assets/7.jpg">
+        </div>
+      </div>
+</div>
+<div class="card" style="width:90%;">
+    <div class="card-body">
+       <span style="font-size: 25px;font-weight: bold;">Package one</span>
+       <span>Itemone</span>
+       <span>Itemone</span>
+       <span>Itemone</span>
+    </div>
+</div>
